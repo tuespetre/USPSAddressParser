@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{292EC17D-3131-47AC-96EE-7FD366D90595}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7574193F-DF3A-42A5-8505-217A7D07E3A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "USPSAddressParser.Tests", "test\USPSAddressParser.Tests\USPSAddressParser.Tests.csproj", "{266782B7-DBA7-492E-8BD3-F3BCFD127D75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "USPSAddressParser", "src\USPSAddressParser\USPSAddressParser.csproj", "{F960065C-E489-4407-914B-ACBD40855F22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{266782B7-DBA7-492E-8BD3-F3BCFD127D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266782B7-DBA7-492E-8BD3-F3BCFD127D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266782B7-DBA7-492E-8BD3-F3BCFD127D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266782B7-DBA7-492E-8BD3-F3BCFD127D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F960065C-E489-4407-914B-ACBD40855F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F960065C-E489-4407-914B-ACBD40855F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F960065C-E489-4407-914B-ACBD40855F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F960065C-E489-4407-914B-ACBD40855F22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E23D4BC-89FD-49F5-B1BC-812D24CC337B} = {292EC17D-3131-47AC-96EE-7FD366D90595}
+		{266782B7-DBA7-492E-8BD3-F3BCFD127D75} = {7574193F-DF3A-42A5-8505-217A7D07E3A3}
+		{F960065C-E489-4407-914B-ACBD40855F22} = {292EC17D-3131-47AC-96EE-7FD366D90595}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE0AF3B6-A24C-4BD4-BFD7-E10D17328E92}
+	EndGlobalSection
+EndGlobal
